@@ -20,6 +20,7 @@ html {
   --grey-blue: #a1b2cd;
   --grey-medium: #d3d9e2;
   --grey-light: #e5eaf1;
+  --grey-opacity: #eaecf2;
 
   --hover-blue: #5699ff;
   --hover-red: #ea4b65;
@@ -106,6 +107,18 @@ button.outlined,
 button.outlined:hover,
 .button.outlined:hover {
   filter: brightness(1.2);
+}
+
+button.red,
+.butotn.red {
+  background: var(--red);
+  color: var(--white);
+}
+
+button.grey,
+.button.grey {
+  background: var(--grey-light);
+  color: var(--grey-dark);
 }
 
 .content header {
