@@ -15,7 +15,7 @@ header {
 #bg {
   grid-area: left;
 
-  background: url('/assets/home-bg-image.svg') no-repeat top/contain;
+  background: url('/images/home-bg-image.svg') no-repeat top/contain;
   background-position-x: -5rem;
 }
 
@@ -43,6 +43,7 @@ input {
   padding: 0 1.6rem;
   height: 5rem;
   border-radius: 0.8rem;
+  outline: none;
 }
 
 input,
